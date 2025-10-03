@@ -42,34 +42,45 @@ body {
     font-weight: bold;
     border-bottom:3px solid #f39c12;
     padding-bottom:1rem;
+    padding-top: 1rem;
+    text-align: left;
 }
 
 .nav {
-    padding: 2rem;
     background: #f5f5f5;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .nav-links {
     margin-top: 2rem;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
     text-transform: uppercase;
-    gap: 0.3rem;
 }
 
 .nav-item {
     font-size: 1.2rem;
     background: #DDDDDD;
-    border-radius: 15px;
+    border-radius: 10px;
+    padding: 0.8rem;
+    
 }
 
 .nav-item-home {
     font-size: 1.2rem;
     background: #DDDDDD;
-    border-radius: 15px;
+    border-radius: 10px;
     border-bottom: #f39c12 solid 2px;
+    padding: 0.8rem;
 }
+
+.nav-item-link:hover {
+    background-color: #f39c12;
+}
+
 
 .page {
     padding: 5rem 2rem 2rem;
@@ -298,3 +309,47 @@ body {
 
     }
 }
+
+
+@media(width >320px) and (width <550px) {
+
+    /*Etape 12 : resolution pour mobile entre 320px et 550px; Les liens présents en nav sont côte à côté entre ces deux résolutions */    
+
+    
+    .header {
+        position:static;
+        width:auto;
+        float:none;
+        margin-left:0;
+    }
+
+    .container {
+        width:96%;
+        padding-left:0;
+    }
+
+    .page {
+        padding: 0 1rem;
+    }
+
+    .nav {
+        padding: 1rem;
+    }
+
+    .nav .title {
+        display:none;
+    }
+
+    .nav-links {
+        margin-top:0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-item {
+
+    }
+
+    
+    }
+    
