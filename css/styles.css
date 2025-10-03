@@ -1,5 +1,6 @@
 body {
     background:#eee;
+    font-family: serif;
 }
 
 
@@ -285,6 +286,7 @@ body {
         margin-left:0;
     }
 
+
     .container {
         width:96%;
         padding-left:0;
@@ -354,10 +356,16 @@ body {
         flex-direction: row;
     }
 
-    .nav-item {
+    .content-title--main {
+        text-align: center;
+    }
+
+    .content-title {
+        text-align: center;
+    }
 
     }
 
     
-    }
+    
     
