@@ -1,6 +1,6 @@
 body {
     background:#eee;
-    font-family: serif;
+    font-family: sans-serif;
 }
 
 
@@ -88,6 +88,7 @@ body {
     background-color: #f39c12;
     color: white;
     transition: background-color 0.3s;
+    
 }
 
 
