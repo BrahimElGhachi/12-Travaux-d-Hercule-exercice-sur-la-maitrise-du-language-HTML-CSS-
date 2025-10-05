@@ -1,9 +1,14 @@
+@font-face {
+    font-family: "Asap";
+    src: url(../font/Asap-VariableFont_wdth\,wght.ttf);
+}
+
 
 body {
     background:#eee;
-    font-family: "Asap";
+    font-family:"Asap";
+    
 }
-
 
 * {
     box-sizing: border-box;
