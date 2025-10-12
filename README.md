@@ -9,10 +9,10 @@ L’objectif était de compléter une page web inspirée des *12 travaux d’Her
 
 - Corriger les liens entre fichiers HTML, CSS et images
 - Intégrer une police personnalisée via Google Fonts
-- Styliser la navigation avec différenciation de l’état actif
+- Styliser le menu navigation (stylisation via Flexbox et différents sélecteurs CSS)
 - Travailler la hiérarchie typographique (titres, sous-titres)
-- Injecter du contenu structuré depuis un fichier Markdown
-- Mettre en place un layout responsive avec articles en grille
+- Injecter du contenu structuré depuis un fichier Markdown (ajout d'un lien internet)
+- Mettre en place un layout responsive avec articles en grille (CSS Grid)
 - Personnaliser les boutons avec couleurs, bordures et effets
 - Ajouter des transitions et effets de survol fluides
 - Superposer une légende sur une image principale
@@ -32,14 +32,6 @@ L’objectif était de compléter une page web inspirée des *12 travaux d’Her
 - Transitions CSS et interactions utilisateur
 - Organisation de fichiers et arborescence projet
 - Lecture et intégration de contenu Markdown
-
----
-
-### Structure du projet
-
-Travaux-dt-recule-exercice-sur-la-maitrise-du-language-HTML-CSS-/ ├── html/ │ └── index.html ├── css/ │ └── styles.css ├── texte/ │ └── wikipedia.md ├── modele/ │ ├── resultat-desktop.jpg │ ├── resultat-mobile.jpg │ ├── menu.png │ ├── titres.png │ ├── btn.png │ └── taureau.png └── README.md
-
-Code
 
 ---
 
