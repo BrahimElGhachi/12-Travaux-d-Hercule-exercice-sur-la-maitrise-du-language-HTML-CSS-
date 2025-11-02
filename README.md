@@ -49,3 +49,9 @@ Ce challenge m’a permis de :
 - Travailler avec des consignes détaillées et des assets fournis
 - Documenter mon travail de manière claire et professionnelle
 - Me préparer à des projets plus complexes en front-end
+
+## Aperçu de la maquette 
+
+![Aperçu des 12 Travaux d'Hercule](img/maquette.jpg)
+
+  
